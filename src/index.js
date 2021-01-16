@@ -1,1 +1,3 @@
-console.log("hello my name is adan and I like sushi");
+import homePage from './home';
+
+homePage();

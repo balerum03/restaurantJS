@@ -1,15 +1,1 @@
-/*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
-/******/ (() => { // webpackBootstrap
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-eval("console.log(\"hello my name is adan and I like sushi\");\n\n\n//# sourceURL=webpack://restaurant-js/./src/index.js?");
-/******/ })()
-;
+(()=>{"use strict";var e,t={243:(e,t,i)=>{e.exports=i.p+"3383406968ab0e55d40a.png"}},i={};function n(e){if(i[e])return i[e].exports;var r=i[e]={exports:{}};return t[e](r,r.exports,n),r.exports}n.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),(()=>{var e;n.g.importScripts&&(e=n.g.location+"");var t=n.g.document;if(!e&&t&&(t.currentScript&&(e=t.currentScript.src),!e)){var i=t.getElementsByTagName("script");i.length&&(e=i[i.length-1].src)}if(!e)throw new Error("Automatic publicPath is not supported in this browser");e=e.replace(/#.*$/,"").replace(/\?.*$/,"").replace(/\/[^\/]+$/,"/"),n.p=e})(),e=n(243),(()=>{const t=document.createElement("div"),i=document.getElementById("content"),n=document.createElement("div"),r=document.createElement("h1"),o=document.createElement("p");o.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",r.innerHTML="Welcome to my restaurant",o.style.maxWidth="50%",i.appendChild(n),t.appendChild((()=>{const t=document.createElement("img");return t.src=e,t.alt="logo",t.id="logo",t.onclick=()=>{window.location.reload()},t})()),n.appendChild(t),n.appendChild(r),n.appendChild(o)})()})();
