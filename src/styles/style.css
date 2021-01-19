@@ -21,6 +21,7 @@ body {
 
 .mainTextDiv{
   padding: 1rem 0 0 3rem;
+  display: none;
 }
 
 .textIn {
@@ -45,6 +46,7 @@ body {
 }
 
 .menuImage {
+  display: none;
   width: 20%;
   height: 12rem;
   border-radius: 10%;
@@ -56,6 +58,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  display: none;
 }
 
 .aboutText {
@@ -70,4 +73,19 @@ body {
   border-radius: 10%;
   border: solid #F57C00;
   border-width: .4rem;
+}
+
+.mainGaleryDiv{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.galeryImage {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10%;
+  border: solid #F57C00;
+  border-width: .4rem;
+  margin-left: 2rem;
 }
