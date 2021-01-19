@@ -21,6 +21,10 @@ navDiv.appendChild(menuSpan);
 navDiv.appendChild(galerySpan);
 navDiv.appendChild(aboutSpan);
 
+menuSpan.classList.add('navItem');
+galerySpan.classList.add('navItem');
+aboutSpan.classList.add('navItem');
+
 logoDiv.classList.add('logoDiv')
 navDiv.classList.add('nav');
 

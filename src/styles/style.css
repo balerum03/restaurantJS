@@ -27,3 +27,12 @@ body {
   max-width: 50%;
   padding-top: 1rem;
 }
+
+.navItem {
+  padding: 1rem 2rem;
+  border-radius: 10%;
+}
+
+.navItem:hover {
+  background-color: #8D6E63; 
+}
