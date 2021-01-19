@@ -1,4 +1,3 @@
-import navBar from './nav';
 const homePage = () => {
   const headDiv = document.createElement('div');
   const content = document.getElementById('content');
@@ -12,7 +11,6 @@ const homePage = () => {
   mainTextDiv.appendChild(mainPageH1);
   mainTextDiv.appendChild(textEx);
   mainTextDiv.classList.add('mainTextDiv');
-  headDiv.appendChild(navBar());
   content.appendChild(homeDiv);
   homeDiv.appendChild(headDiv);
   homeDiv.appendChild(mainTextDiv);

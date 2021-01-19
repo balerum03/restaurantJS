@@ -1,6 +1,7 @@
 import logoImage from './logo'
 const navBar = () => {
 
+const content = document.getElementById('content');
 const navDiv = document.createElement('div');
 const logoDiv = document.createElement('div');
 const menuSpan = document.createElement('span');
@@ -20,6 +21,11 @@ navDiv.appendChild(logoDiv);
 navDiv.appendChild(menuSpan);
 navDiv.appendChild(galerySpan);
 navDiv.appendChild(aboutSpan);
+content.appendChild(navDiv);
+
+menuSpan.setAttribute('id','menuSpan');
+galerySpan.setAttribute('id','galerySpan');
+aboutSpan.setAttribute('id','aboutSpan');
 
 menuSpan.classList.add('navItem');
 galerySpan.classList.add('navItem');

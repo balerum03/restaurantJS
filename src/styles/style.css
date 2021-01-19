@@ -21,6 +21,7 @@ body {
 
 .mainTextDiv{
   padding: 1rem 0 0 3rem;
+  display: none;
 }
 
 .textIn {
@@ -34,5 +35,20 @@ body {
 }
 
 .navItem:hover {
-  background-color: #8D6E63; 
+  background-color: #8D6E63;
+}
+
+.foodImages{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 6rem;
+}
+
+.menuImage {
+  width: 20%;
+  height: 12rem;
+  border-radius: 10%;
+  border: solid #F57C00;
+  border-width: .4rem;
 }
