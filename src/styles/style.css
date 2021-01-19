@@ -1,0 +1,29 @@
+body {
+  background-color: #5D4037;
+  color: #F57C00;
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.nav {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3rem;
+  align-items: center;
+}
+
+#logo {
+  max-width: 5rem;
+}
+
+.mainTextDiv{
+  padding: 1rem 0 0 3rem;
+}
+
+.textIn {
+  max-width: 50%;
+  padding-top: 1rem;
+}
