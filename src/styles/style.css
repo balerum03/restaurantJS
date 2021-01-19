@@ -21,7 +21,6 @@ body {
 
 .mainTextDiv{
   padding: 1rem 0 0 3rem;
-  display: none;
 }
 
 .textIn {
@@ -48,6 +47,26 @@ body {
 .menuImage {
   width: 20%;
   height: 12rem;
+  border-radius: 10%;
+  border: solid #F57C00;
+  border-width: .4rem;
+}
+
+.aboutWhole {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aboutText {
+    max-width: 30%;
+}
+
+.aboutImg {
+  max-width: 30rem;
+  height: 30rem;
+  margin: 4rem 0 10rem 0;
+  margin-left: 2rem;
   border-radius: 10%;
   border: solid #F57C00;
   border-width: .4rem;
