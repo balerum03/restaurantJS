@@ -1,6 +1,6 @@
-import logoImage from './logo'
-const navBar = () => {
+import logoImage from './logo';
 
+const navBar = () => {
   const content = document.getElementById('content');
   const navDiv = document.createElement('div');
   const logoDiv = document.createElement('div');
@@ -53,7 +53,7 @@ const navBar = () => {
 
   galerySpan.onclick = () => {
     galerySpan.style.backgroundColor = '#F57C00';
-    galerySpan.style.color = "#5D4037";
+    galerySpan.style.color = '#5D4037';
     menuSpan.style.backgroundColor = 'transparent';
     menuSpan.style.color = '#F57C00';
     aboutSpan.style.backgroundColor = 'transparent';
@@ -70,7 +70,7 @@ const navBar = () => {
 
   aboutSpan.onclick = () => {
     aboutSpan.style.backgroundColor = '#F57C00';
-    aboutSpan.style.color = "#5D4037";
+    aboutSpan.style.color = '#5D4037';
     galerySpan.style.backgroundColor = 'transparent';
     galerySpan.style.color = '#F57C00';
     menuSpan.style.backgroundColor = 'transparent';
@@ -85,6 +85,6 @@ const navBar = () => {
     toHide3[0].style.display = 'none';
   };
 
-return navDiv;
+  return navDiv;
 };
 export default navBar;

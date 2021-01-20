@@ -1,6 +1,6 @@
 body {
-  background-color: #5D4037;
-  color: #F57C00;
+  background-color: #5d4037;
+  color: #f57c00;
   font-family: cursive;
   font-weight: 500;
   font-size: 1.5rem;
@@ -19,7 +19,7 @@ body {
   max-width: 5rem;
 }
 
-.mainTextDiv{
+.mainTextDiv {
   padding: 1rem 0 0 3rem;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .navItem:hover {
-  background-color: #8D6E63;
+  background-color: #8d6e63;
 }
 
 .foodImages {
@@ -48,8 +48,8 @@ body {
   width: 20%;
   height: 12rem;
   border-radius: 10%;
-  border: solid #F57C00;
-  border-width: .4rem;
+  border: solid #f57c00;
+  border-width: 0.4rem;
 }
 
 .aboutWhole {
@@ -69,10 +69,10 @@ body {
   margin-left: 2rem;
   border-radius: 10%;
   border: solid #F57C00;
-  border-width: .4rem;
+  border-width: 0.4rem;
 }
 
-.mainGaleryDiv{
+.mainGaleryDiv {
   margin-top: 5rem;
   display: none;
   flex-direction: column;
@@ -83,7 +83,7 @@ body {
   width: 20rem;
   height: 20rem;
   border-radius: 10%;
-  border: solid #F57C00;
-  border-width: .4rem;
+  border: solid #f57c00;
+  border-width: 0.4rem;
   margin: 2rem 0 2rem 6rem;
 }
