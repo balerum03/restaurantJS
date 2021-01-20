@@ -16,6 +16,7 @@ const homePage = () => {
   homeDiv.appendChild(mainTextDiv);
 
   textEx.classList.add('textIn');
+  
   return content;
 };
 
