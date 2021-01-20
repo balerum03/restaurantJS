@@ -59,7 +59,7 @@ body {
 }
 
 .aboutText {
-    max-width: 30%;
+  max-width: 30%;
 }
 
 .aboutImg {
@@ -68,7 +68,7 @@ body {
   margin: 4rem 0 10rem 0;
   margin-left: 2rem;
   border-radius: 10%;
-  border: solid #F57C00;
+  border: solid #f57c00;
   border-width: 0.4rem;
 }
 
