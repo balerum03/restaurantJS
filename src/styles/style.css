@@ -1,0 +1,89 @@
+body {
+  background-color: #5d4037;
+  color: #f57c00;
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.nav {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3rem;
+  align-items: center;
+}
+
+#logo {
+  max-width: 5rem;
+}
+
+.mainTextDiv {
+  padding: 1rem 0 0 3rem;
+}
+
+.textIn {
+  max-width: 50%;
+  padding-top: 1rem;
+}
+
+.navItem {
+  padding: 1rem 2rem;
+  border-radius: 10%;
+}
+
+.navItem:hover {
+  background-color: #8d6e63;
+}
+
+.foodImages {
+  display: none;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 6rem;
+}
+
+.menuImage {
+  width: 20%;
+  height: 12rem;
+  border-radius: 10%;
+  border: solid #f57c00;
+  border-width: 0.4rem;
+}
+
+.aboutWhole {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aboutText {
+  max-width: 30%;
+}
+
+.aboutImg {
+  max-width: 30rem;
+  height: 30rem;
+  margin: 4rem 0 10rem 0;
+  margin-left: 2rem;
+  border-radius: 10%;
+  border: solid #f57c00;
+  border-width: 0.4rem;
+}
+
+.mainGaleryDiv {
+  margin-top: 5rem;
+  display: none;
+  flex-direction: column;
+  text-align: center;
+}
+
+.galeryImage {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10%;
+  border: solid #f57c00;
+  border-width: 0.4rem;
+  margin: 2rem 0 2rem 6rem;
+}
