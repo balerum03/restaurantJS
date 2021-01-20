@@ -4,7 +4,6 @@ import tacos3 from './images/tacos3.png';
 import tacos4 from './images/tacos4.png';
 
 const foodMenu = () => {
-
   const content = document.getElementById('content');
   const itemsDiv = document.createElement('div');
   content.appendChild(itemsDiv);
@@ -37,6 +36,6 @@ const foodMenu = () => {
   itemsDiv.appendChild(menuItem4);
 
   return itemsDiv;
-}
+};
 
 export default foodMenu;

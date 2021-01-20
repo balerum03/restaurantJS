@@ -2,7 +2,6 @@ import tacos1 from './images/tacos1.png';
 import tacos2 from './images/tacos2.png';
 import tacos3 from './images/tacos3.png';
 import tacos4 from './images/tacos4.png';
-import tacos5 from './images/aboutImage.png';
 
 const galeryContent = () => {
   const content = document.getElementById('content');
@@ -41,6 +40,6 @@ const galeryContent = () => {
   content.appendChild(mainGaleryDiv);
 
   return mainGaleryDiv;
-}
+};
 
 export default galeryContent;

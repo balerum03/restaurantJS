@@ -1,7 +1,6 @@
 import aboutImage from './images/aboutImage.png';
 
 const aboutUs = () => {
-
   const content = document.getElementById('content');
   const aboutMainDiv = document.createElement('div');
   const aboutImgDiv = document.createElement('div');
@@ -29,6 +28,6 @@ const aboutUs = () => {
   aboutImg.classList.add('aboutImg');
 
   return aboutDiv;
-}
+};
 
 export default aboutUs;
