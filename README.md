@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/balerum03/restaurantJS/using_webpack/dist/index.html)
+[Live Demo Link](https://raw.githack.com/balerum03/restaurantJS/development/dist/index.html)
 
 
 ## To get a local copy up and running follow these simple example steps.
